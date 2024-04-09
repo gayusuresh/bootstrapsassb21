@@ -1,0 +1,11 @@
+@import "../bootstrap/scss/functions";
+@import "../bootstrap/scss/variables";
+@import "../bootstrap/scss/mixins";
+$primary: #3a9c6699;
+$danger: #bf617c;
+$custom-colors: (
+  "gayathri-p":rgb(23, 134, 60),
+  "gayathri-d":orange
+);
+$theme-colors: map-merge($theme-colors, $custom-colors);
+@import "../bootstrap/scss/bootstrap.scss";
